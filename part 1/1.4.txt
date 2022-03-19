@@ -1,0 +1,4 @@
+❯ docker run --rm -it --name test ubuntu sh -c 'apt update; apt -y install curl; echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+
+Note: I used this single command to start the process and fix the problems.

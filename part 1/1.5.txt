@@ -1,0 +1,12 @@
+The size of devopsdockeruh/simple-web-service:ubuntu is around 83 MB.
+
+The size of devopsdockeruh/simple-web-service:alpine is around 15 MB.
+
+Secret message:
+'You can find the source code here: https://github.com/docker-hy'
+
+Commands:
+❯ docker run -d --rm -it --name looper devopsdockeruh/simple-web-service:alpine
+❯ docker exec -it looper tail -f ./text.log
+
+The secret message functionality is the same.

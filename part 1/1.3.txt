@@ -1,0 +1,6 @@
+Secret message:
+'You can find the source code here: https://github.com/docker-hy'
+
+Commands:
+❯ docker run -d --rm -it --name looper devopsdockeruh/simple-web-service:ubuntu
+❯ docker exec -it looper tail -f ./text.log
