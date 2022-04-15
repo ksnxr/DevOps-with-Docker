@@ -1,0 +1,1 @@
+I tested with the version from exercise 2.6.

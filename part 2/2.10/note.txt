@@ -1,0 +1,5 @@
+The changes concern the Dockerfiles for backend and frontend.
+
+For backend, "ENV REQUEST_ORIGIN=http://127.0.0.1:5000", i.e. CORS check, can be deleted, as it is not necessary now that we are using Nginx as the reverse proxy.
+
+For frontend, "ENV REACT_APP_BACKEND_URL" can be changed to "http://localhost/api", as we already set it in Nginx to be this location.

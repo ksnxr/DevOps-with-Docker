@@ -1,0 +1,1 @@
+For this exercise, I extended the flask project described before in exercise 1.15 to using docker-compose.
